@@ -1,8 +1,9 @@
-a=input("Enter your name:")
-b=int(input("Enter your age:"))
-c=input("Enter your branch:")
-d=input("Enter your college name:")
-print(a)
-print(b)
-print(c)
-print(d)
+#comparison operator
+a=10
+b=20
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
