@@ -54,3 +54,50 @@ print(a)
 g=[3,7,9,10,8]
 g.sort(reverse=True)
 print(g)
+
+#reverse method
+a=[2,8,7,6,5]
+a.reverse()
+print(a)
+
+#copy method
+g=[3,5,7,8,]
+m=g.copy()
+print(m)
+
+#slicing method
+numbers=[10,30,50,46,87]
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+
+#problems
+a=int(input("Enter minutes"))
+print("hours:",a/60)
+print("remaining minutes:",a%60)
+print("total seconds:",a*60)
+
+#power calculation
+base=int(input("base:"))
+power=int(input("power:"))
+print(base ** power)
+
+#total and avg of numbers
+n1=int(input("enter number:"))
+n2=int(input("Enter number:"))
+n3=int(input("Enter number:"))
+total=n1+n2+n3
+avg=total/3
+print("Total:",total)
+print("avg:",avg)
+
+#greater then comparisison 
+a=int(input("Enter number:"))
+b=int(input("Enter number:"))
+print("grater:",a>b)
+
+#equality check
+n1=int(input("enter number:"))
+n2=int(input("enter number:"))
+print("equal:",n1==n2)
+
